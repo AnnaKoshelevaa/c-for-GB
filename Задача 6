@@ -1,0 +1,11 @@
+System.Console.Write("Введите четное число");
+int n = int.Parse();
+int x = n%2;
+If (x=0)
+{
+Sysytem.Console.WriteLine("Число четное")
+}
+Else
+{
+System.Console.WriteLine("Число не четное")
+}
