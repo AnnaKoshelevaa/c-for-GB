@@ -1,0 +1,15 @@
+{
+	Console.WriteLine("Task2");
+
+	int firstNumber = ReadInt("First number");
+	int secondNumber = ReadInt("Second number");
+
+	if (IsLargeThen(firstNumber, secondNumber))
+	{
+		Console.WriteLine("First number > Second number");
+	}
+	else
+	{
+		Console.WriteLine("Second number > First number");
+	}
+}
