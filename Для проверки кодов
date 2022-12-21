@@ -1,0 +1,25 @@
+Main();
+
+void Main()
+{
+	bool isWorking = true;
+	while (isWorking)
+	{
+		Console.Write("Input command: ");
+		switch (Console.ReadLine())
+		{
+			case "Task2": Task2(); break;
+			case "Task4": Task4(); break;
+			case "Task6": Task6(); break;
+			case "Task8": Task8(); break;
+			case "Task10": Task10(); break;
+			case "Task19": Task19(); break;
+			case "Task25": Task25(); break;
+			case "Task29": Task29(); break;
+			case "TaskN": TaskN(); break;
+			case "TaskM": TaskM(); break;
+
+			case "exit": isWorking = false; break;
+		}
+		Console.WriteLine();
+	}
