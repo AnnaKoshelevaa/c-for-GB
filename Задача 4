@@ -1,0 +1,9 @@
+{
+	Console.WriteLine("Task4:");
+
+	int firstNumber = ReadInt("First number");
+	int secondNumber = ReadInt("Second number");
+	int thirdNumber = ReadInt("Third number");
+
+	Console.WriteLine($"The largest value is {FindMax(firstNumber, secondNumber, thirdNumber)}");
+}
