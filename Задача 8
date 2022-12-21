@@ -1,0 +1,6 @@
+{
+	Console.WriteLine("Task8");
+	int n = ReadInt("N");
+
+	Console.WriteLine(GetNumbersAsLineUntil(n));
+}
