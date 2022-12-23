@@ -1,0 +1,24 @@
+Console.Write("Введите число: ");
+int number = int.Parse(Console.ReadLine());
+int[] arr = number.ToString().ToCharArray().Select(x => x - '0').ToArray();
+if (number >= 100)
+{
+    int thirdNumber = arr[2];
+    Console.WriteLine($"Третья цифра числа - {thirdNumber}");
+}
+else 
+{
+    Console.WriteLine("В числе меньше трех цифр!");
+}
+
+
+Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
